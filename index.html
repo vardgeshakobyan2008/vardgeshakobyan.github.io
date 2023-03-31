@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>vardges.net</title>
+        <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/4703/4703650.png">
+        <link rel="stylesheet" href="./CSS/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="left">
+                <label>HTML</label>
+                <textarea id="html-code" onkeyup="run()"></textarea>
+
+                <label>CSS</label>
+                <textarea id="css-code" onkeyup="run()"></textarea>
+
+                <label>JavaScript</label>
+                <textarea id="js-code" onkeyup="run()"></textarea>
+            </div>
+            <div class="right">
+                <label>Code Output</label>
+                <iframe id="output"></iframe>
+            </div>
+        </div>
+
+        <script src="./JS/app.js"></script>
+    </body>
+</html>
